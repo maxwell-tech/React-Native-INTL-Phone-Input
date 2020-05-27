@@ -900,7 +900,7 @@ const Countries = [
     flag: '🇲🇾',
     code: 'MY',
     dialCode: '+60',
-    mask: '99-999 9999'
+    mask: '9999999999'
   },
   {
     name: 'Maldives',
