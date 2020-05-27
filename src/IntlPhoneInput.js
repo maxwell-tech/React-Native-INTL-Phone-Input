@@ -38,9 +38,9 @@ export default class IntlPhoneInput extends React.Component {
       mask: defaultCountry.mask,
       countryData: data
     };
-    if (defaultPhoneNumber) {
-      this.handleChangeText(defaultPhoneNumber)
-    }
+    // if (defaultPhoneNumber) {
+    //   this.handleChangeText(defaultPhoneNumber)
+    // }
   }
 
   onChangePropText=(unmaskedPhoneNumber, phoneNumber) => {
@@ -207,7 +207,8 @@ IntlPhoneInput.propTypes = {
   filterText: PropTypes.string,
   closeText: PropTypes.string,
   searchIconStyle: PropTypes.object,
-  disableCountryChange:PropTypes.func
+  disableCountryChange:PropTypes.func,
+  phoneNumber: PropTypes.string
 };
 
 const styles = StyleSheet.create({
